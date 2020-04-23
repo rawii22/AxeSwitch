@@ -1,5 +1,5 @@
 name = "Auto Axe/Shovel Switch"
-description = "Automatically switches to shovel after cutting down a tree and then back to axe after digging up a stump. IMPORTANT: You can press \"z\" to toggle the switch."
+description = "Automatically switches to shovel after cutting down a tree and then back to axe after digging up a stump.\nIMPORTANT: You can press \"z\" to toggle the switch."
 author = "rawii22 & lord_of_les_ralph"
 version = "1.0.1"
 
