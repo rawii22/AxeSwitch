@@ -1,5 +1,5 @@
 local toggle = true
-local keybind = "z"
+local keybind = GetModConfigData("KEY")
 
 local function SetOnFinishCallback(workable)
 	local OldFinish = workable.SetOnFinishCallback
@@ -39,6 +39,6 @@ AddComponentPostInit("workable", SetOnFinishCallback)
 GLOBAL.TheInput:AddKeyUpHandler(keybind:lower():byte(),
 	function()
 		toggle = not toggle
-		print(toggle)
+		print("Axe Auto Switch: "..tostring(toggle))
 	end
 )
